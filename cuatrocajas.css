@@ -1,0 +1,67 @@
+
+.caja1 {
+    background: red;
+    width: 50%;
+    height: 300px;
+    float: left;
+   
+   
+    
+}
+.caja2 {
+    background: rgb(0, 255, 42);
+    width: 50%;
+    height: 300px;
+    float: left;
+    
+  
+
+}
+.caja3 {
+    background: rgb(38, 0, 255);
+    width: 50%;
+    height: 300px;
+    float: left;
+    
+
+
+}
+
+.caja4 {
+    background: rgb(255, 0, 98);
+    width: 50%;
+    height: 300px;
+    float: right;
+    
+
+
+}
+
+@media screen and (max-width: 1000px) {
+  
+    .caja1 {
+      background: #4A89DC;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .caja2 {
+        background: rgb(205, 220, 74);
+      }
+  }
+
+@media screen and (max-width: 800px) {
+    .caja3 {
+        background: rgb(74, 220, 74);
+      }
+
+  } 
+
+
+  @media screen and (max-width: 700px) {
+    .caja4 {
+        background: rgb(220, 74, 74);
+      }
+  }
+
+
